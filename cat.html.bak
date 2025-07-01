@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <table border="1">
+  <tr>
+    <th>Image</th>
+    <th>name</th>
+    <th>prize</th>
+	<th>add to cart</th>
+  </tr>
+  <tr>
+  <td><img src="1.jpeg"></td>
+  <td>the bright book of life</td>
+  <td>335</td>
+  <td>add</td>
+  </tr>
+  <tr>
+  <td><img src="2.jpeg"></td>
+  <td>the book theif</td>
+  <td>765</td>
+  <td>add</td>
+  </tr>
+  <tr>
+  <td><img src="3.jpeg"></td>
+  <td>the maid</td>
+  <td>999</td>
+  <td>add</td>
+  </tr>
+  
+  </tablec>
+ </body>
+</html>

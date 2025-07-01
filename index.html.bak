@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+ <table>
+ <tr>
+   <th><iframe src="logo.html" height="150" width="150" title="Iframe Example"></iframe></th>
+   <th><iframe src="s.html" height="150" width="2000" title="Iframe Example"></iframe></th>
+   </tr>
+   </table>
+   <iframe src="branch.html" height="150" width="150" title="Iframe Example"></iframe>
+   <iframe src="login.html"></iframe>
+   <iframe src="re.html"></iframe>
+   <iframe src="cat.html"></iframe>
+   <iframe src="ct.html"></iframe>
+   
+ </body>
+</html>
