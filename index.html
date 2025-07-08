@@ -1,21 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="UTF-8">
-  <meta name="Generator" content="EditPlus®">
-  <meta name="Author" content="">
-  <meta name="Keywords" content="">
-  <meta name="Description" content="">
-  <title>Document</title>
- </head>
- <body>
- <table>
- <tr>
-   <th><iframe src="logo.html" height="150" width="150" title="Iframe Example"></iframe></th>
-   <th><iframe src="s.html" height="150" width="2000" title="Iframe Example"></iframe></th>
-   </tr>
-   </table>
-   <iframe src="branch.html" height="150" width="150" title="Iframe Example"></iframe>
-   
- </body>
+<head>
+  <meta charset="UTF-8" />
+  <title>Habitat Café</title>
+  <style>
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #2a7ae2;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: 2px solid #ccc;
+      margin-top: 15px;
+      border-radius: 5px;
+    }
+  </style>
+  <script>
+    function loadPage(event, page) {
+      event.preventDefault(); // Prevent normal link navigation
+      document.getElementById('contentFrame').src = page;
+    }
+  </script>
+</head>
+<body>
+
+  <nav>
+    <a href="home.html" onclick="loadPage(event, 'home.html')">Home</a>
+    <a href="men.html" onclick="loadPage(event, 'men.html')">Menu</a>
+    <a href="open.html" onclick="loadPage(event, 'open.html')">Opening Hours</a>
+    <a href="recipe.html" onclick="loadPage(event, 'recipe.html')">Recipe</a>
+    <a href="cont.html" onclick="loadPage(event, 'cont.html')">Contact</a>
+  </nav>
+
+  <iframe id="contentFrame" src="home.html" title="Habitat Café Content"></iframe>
+
+</body>
 </html>
